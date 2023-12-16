@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <table name="users">
+        <column name="id" type="int" />
+        <column name="name" type="varchar" />
+        <column name="email" type="varchar" />
+        <column name="password" type="varchar" />
+    </table>
+    <table name="posts">
+        <column name="id" type="int" />
+        <column name="user_id" type="int" />
+        <column name="title" type="varchar" />
+        <column name="content" type="varchar" />
+    </table>
+    <table name="comments">
+        <column name="id" type="int" />
+        <column name="post_id" type="int" />
+        <column name="user_id" type="int" />
+        <column name="content" type="varchar" />
+    </table>
+    <users>
+        <user>
+            <id>1</id>
+            <name>John Doe</name>
+            <email>john@tuctf.com</email>
+            <password>TUCTF{x0r_t4bl3s_R_fun!!!11!}</password>
+        </user>
+    </users>
+</root>
